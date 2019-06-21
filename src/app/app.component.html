@@ -1,0 +1,20 @@
+<div class="boundary" #myIdentifier id="myIdentifier" [ngClass]="{'khakhi': isDarkKhaki ,'dark-theme' : isDarkTheme ,'skyblue' : isSkyBlue, 'orange' : isOrangeTheme}">
+   <h1>Theme Colour</h1>
+      <div class="color_button">
+      <div class="color box1" [ngClass]="{'active_box1': isDarkTheme}" (click)="changeTheme('Dark')"></div>
+      <div class="color box2" [ngClass]="{'active_box2': isDarkKhaki}" (click)="changeTheme('Khaki')"></div>
+      <div class="color box3" [ngClass]="{'active_box3': isSkyBlue}" (click)="changeTheme('sky')"></div>
+      <div class="color box4" [ngClass]="{'active_box4': isOrangeTheme}" (click)="changeTheme('orange')"></div>
+      </div>
+
+<mat-card class="card" cdkDragBoundary=".boundary" cdkDrag>Simple Card</mat-card>
+<mat-card class="card" cdkDragBoundary=".boundary" cdkDrag> Simple Card</mat-card>
+<mat-card class="card" cdkDragBoundary=".boundary" cdkDrag>Simple Card</mat-card>
+<mat-card class="card" cdkDragBoundary=".boundary" cdkDrag>Simple Card</mat-card>
+<mat-card class="card" cdkDragBoundary=".boundary" cdkDrag>Simple Card</mat-card>
+<mat-card class="card" cdkDragBoundary=".boundary" cdkDrag>Simple Card</mat-card>
+<mat-card class="card" cdkDragBoundary=".boundary" cdkDrag>Simple Card</mat-card>
+
+<mat-card class="card" cdkDragBoundary=".boundary" cdkDrag>Simple Card</mat-card>
+<mat-card class="card" cdkDragBoundary=".boundary" cdkDrag>Simple Card</mat-card>
+</div>

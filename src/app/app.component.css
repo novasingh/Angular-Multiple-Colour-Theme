@@ -1,0 +1,121 @@
+.box
+{
+  width: 200px;
+  height: 200px;
+  background: red;
+  text-align: center;
+  opacity: 0.7;
+  font-size: 14px;
+}
+h1{
+  text-align: center;
+    margin-block-start: 0px;
+    padding: 30px 0px 0px 0px;
+    font-family: monospace,fantasy;
+}
+.color_button{
+  display: flex;
+  justify-content: center;
+}
+.color{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 5px;
+  box-shadow: 2px 2px 5px #a19e9e;
+}
+
+.box1
+{
+    background: #3F51B5;
+}
+.active_box1
+{
+  border:5px solid blue;
+  transition: all .5s;
+}
+.active_box2
+{
+  border:5px solid rgb(169, 218, 36);
+  transition: all .5s;
+}
+.active_box3
+{
+  border:5px solid rgb(34, 190, 177);
+  transition: all .5s;
+}
+.active_box4
+{
+  border:5px solid rgb(214, 164, 160);
+  transition: all .5s;
+}
+.box2
+{
+    background: darkkhaki;
+}
+.box3
+{
+    background: rgb(33, 243, 173);
+}
+.box4
+{
+    background: rgb(240, 151, 36);
+}
+
+.card{
+  width:10vw;
+}
+mat-card
+{
+  width:10vw;
+  margin: 10px;
+  float:left;
+  padding: 10px;
+}
+.boundary
+{
+  width:100vw;
+  margin:0px auto;
+  height:100vh;
+}
+.mat-card {
+  background: #000;
+  color: rgba(241, 241, 241, 0.87);
+}
+/* Theme Colour */
+.dark-theme {
+  background: rgb(71, 123, 219) !important;
+  transition: all .5s;
+}
+.dark-theme mat-card{
+  background: white !important;
+  color: rgb(1, 99, 190) !important;
+  transition: all .5s;
+}
+
+.khakhi
+{
+  background: darkkhaki;
+  transition: all .5s;
+}
+.khakhi mat-card{
+  background: white !important;
+  color: darkkhaki !important;
+  transition: all .5s;
+}
+.skyblue
+{
+  background: skyblue;
+  transition: all .5s;
+}
+.skyblue mat-card{
+  background: white !important;
+  color: skyblue !important;
+}
+.orange{
+  background: orange;
+}
+.orange mat-card{
+  background: white !important;
+  color: orange !important;
+}
